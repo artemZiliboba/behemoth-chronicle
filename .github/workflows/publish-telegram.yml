@@ -1,0 +1,93 @@
+name: Publish Behemoth post to Telegram
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'posts/**/*.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Find post to publish
+        id: post
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            POST_FILE=$(find posts -type f -name '*.md' | sort | tail -n 1)
+          else
+            POST_FILE=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'posts/**/*.md' | tail -n 1)
+          fi
+
+          if [ -z "${POST_FILE:-}" ]; then
+            echo "No post file found."
+            exit 1
+          fi
+
+          echo "file=$POST_FILE" >> "$GITHUB_OUTPUT"
+          echo "Publishing $POST_FILE"
+
+      - name: Extract Telegram text
+        id: text
+        shell: bash
+        run: |
+          set -euo pipefail
+          POST_FILE="${{ steps.post.outputs.file }}"
+
+          awk '
+            BEGIN { in_frontmatter=0; frontmatter_done=0 }
+            NR==1 && $0=="---" { in_frontmatter=1; next }
+            in_frontmatter && $0=="---" { in_frontmatter=0; frontmatter_done=1; next }
+            !in_frontmatter && (frontmatter_done || NR>1) { print }
+          ' "$POST_FILE" > /tmp/telegram-post.txt
+
+          # Trim leading/trailing blank lines.
+          sed -i '/./,$!d' /tmp/telegram-post.txt
+          tac /tmp/telegram-post.txt | sed '/./,$!d' | tac > /tmp/telegram-post-trimmed.txt
+          mv /tmp/telegram-post-trimmed.txt /tmp/telegram-post.txt
+
+          if [ ! -s /tmp/telegram-post.txt ]; then
+            echo "Post body is empty."
+            exit 1
+          fi
+
+          CHAR_COUNT=$(wc -m < /tmp/telegram-post.txt)
+          if [ "$CHAR_COUNT" -gt 4096 ]; then
+            echo "Post is too long for a single Telegram message: $CHAR_COUNT characters."
+            exit 1
+          fi
+
+      - name: Publish to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHAT_ID:-}" ]; then
+            echo "Telegram secrets are not configured."
+            exit 1
+          fi
+
+          RESPONSE=$(curl --fail-with-body --silent --show-error \
+            --request POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text@/tmp/telegram-post.txt")
+
+          echo "$RESPONSE"
