@@ -11,7 +11,6 @@ ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "posts"
 WEB_DIR = ROOT / "web"
 SITE_DIR = ROOT / "_site"
-ASSETS_DIR = WEB_DIR / "assets"
 
 MONTHS = {
     1: "января", 2: "февраля", 3: "марта", 4: "апреля",
@@ -166,9 +165,6 @@ def render_page(posts: List[Post]) -> str:
         <h1>Хроники Бегемота</h1>
         <p class="hero-text">Московская жизнь, долги, примусы, достоинство и редкие случаи бытовой метафизики.</p>
       </div>
-      <div class="hero-mark">
-        <img src="assets/behemoth-hero.webp" alt="Кот Бегемот у книги с пером и чернильницей" width="260" height="260" loading="eager" decoding="async">
-      </div>
     </header>
 
     <main class="content-grid">
@@ -210,12 +206,10 @@ def build() -> None:
         shutil.rmtree(SITE_DIR)
 
     SITE_DIR.mkdir(parents=True, exist_ok=True)
-    (SITE_DIR / "assets").mkdir(parents=True, exist_ok=True)
 
     (SITE_DIR / "index.html").write_text(render_page(posts), encoding="utf-8")
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
     shutil.copy2(WEB_DIR / "style.css", SITE_DIR / "style.css")
-    shutil.copy2(ASSETS_DIR / "behemoth-hero.webp", SITE_DIR / "assets" / "behemoth-hero.webp")
     print(f"Built {len(posts)} posts into {SITE_DIR / 'index.html'}")
 
 
