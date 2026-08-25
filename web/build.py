@@ -167,7 +167,7 @@ def render_page(posts: List[Post]) -> str:
         <p class="hero-text">Московская жизнь, долги, примусы, достоинство и редкие случаи бытовой метафизики.</p>
       </div>
       <div class="hero-mark">
-        <img src="assets/behemoth-quill.svg" alt="Кот Бегемот с писчим пером">
+        <img src="assets/behemoth-hero.webp" alt="Кот Бегемот у книги с пером и чернильницей" width="260" height="260" loading="eager" decoding="async">
       </div>
     </header>
 
@@ -215,7 +215,7 @@ def build() -> None:
     (SITE_DIR / "index.html").write_text(render_page(posts), encoding="utf-8")
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
     shutil.copy2(WEB_DIR / "style.css", SITE_DIR / "style.css")
-    shutil.copy2(ASSETS_DIR / "behemoth-quill.svg", SITE_DIR / "assets" / "behemoth-quill.svg")
+    shutil.copy2(ASSETS_DIR / "behemoth-hero.webp", SITE_DIR / "assets" / "behemoth-hero.webp")
     print(f"Built {len(posts)} posts into {SITE_DIR / 'index.html'}")
 
 
