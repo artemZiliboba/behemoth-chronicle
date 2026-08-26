@@ -144,6 +144,7 @@ def render_post_template(post: Post, is_latest: bool = False) -> str:
       <div class="message-meta">
         {'<span class="today-badge">Сегодня</span>' if is_latest else ''}
         <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
+        <span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>≈ 5 мин чтения</span>
       </div>
       <div class="message-body">{paragraphize(post.body)}</div>
     </template>
@@ -169,14 +170,6 @@ def render_page(posts: List[Post]) -> str:
 </head>
 <body>
   <div class="page-shell">
-    <nav class="topbar" aria-label="Навигация">
-      <button class="icon-button" type="button" aria-label="Открыть меню"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
-      <div class="top-actions">
-        <button class="icon-button" type="button" aria-label="Тёмная тема"><svg viewBox="0 0 24 24"><path d="M20 15.4A8.5 8.5 0 0 1 8.6 4a8.5 8.5 0 1 0 11.4 11.4Z"/></svg></button>
-        <a class="icon-button" href="#history" aria-label="Архив"><svg viewBox="0 0 24 24"><path d="M5 19a14 14 0 0 1 14-14M5 13a6 6 0 0 1 6 6M5 7a12 12 0 0 1 12 12"/><circle cx="5" cy="19" r="1"/></svg></a>
-      </div>
-    </nav>
-
     <header class="hero">
       <div class="hero-copy">
         <h1>Хроники Бегемота</h1>
@@ -191,11 +184,15 @@ def render_page(posts: List[Post]) -> str:
           <div class="message-meta">
             <span class="today-badge">Сегодня</span>
             <time datetime="{html.escape(latest.date)}">{html.escape(pretty_date(latest.date))}</time>
+            <span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>≈ 5 мин чтения</span>
           </div>
           <div class="message-body">{paragraphize(latest.body)}</div>
           <footer class="article-footer">
             <div class="tag-list"><span class="tag">домоуправление</span><span class="tag">быт</span></div>
-            <span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>~ 5 мин чтения</span>
+            <div class="article-actions" aria-label="Действия с записью">
+              <button type="button" aria-label="Сохранить"><svg viewBox="0 0 24 24"><path d="M6 4h12v16l-6-4-6 4Z"/></svg></button>
+              <button type="button" aria-label="Поделиться"><svg viewBox="0 0 24 24"><path d="M14 5l5 5-5 5v-3c-5 0-8 2-10 6 1-6 4-10 10-10Z"/></svg></button>
+            </div>
           </footer>
         </article>
       </section>
@@ -208,7 +205,7 @@ def render_page(posts: List[Post]) -> str:
       {post_templates}
     </main>
     <footer class="site-footer">
-      <div class="quote"><img src="assets/behemoth-quill.svg" alt=""><span>Рукописи не горят. Зато отлично пылятся. &nbsp;— <b>М. А. Б.</b></span></div>
+      <div class="quote"><span class="quote-mark" aria-hidden="true">“</span><span>Рукописи не горят. Зато отлично пылятся.<br><b>— М. А. Б.</b></span></div>
       <div class="copyright">© Хроники Бегемота, 2026<br>Сделано с чёрным юмором и вниманием к деталям.</div>
     </footer>
   </div>
