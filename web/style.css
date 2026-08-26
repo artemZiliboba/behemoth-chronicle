@@ -90,19 +90,15 @@ body::before {
 .history-heading svg { width: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; }
 .history-list { position: relative; }
 .history-list::before { content: ""; position: absolute; top: 24px; bottom: 24px; left: 0; width: 1px; background: #26343d; }
-.history-item { position: relative; margin: 0 0 0 17px; border-bottom: 1px solid var(--line); }
+.history-item { position: relative; display: block; width: calc(100% - 17px); margin: 0 0 0 17px; padding: 0; color: inherit; text-align: left; border: 0; border-bottom: 1px solid var(--line); background: transparent; font: inherit; }
 .history-item::before { content: ""; position: absolute; left: -20px; top: 27px; width: 7px; height: 7px; border-radius: 50%; background: #53626d; }
-.history-item:first-child { margin-bottom: 7px; border: 1px solid rgba(38,226,122,.65); border-radius: 12px; background: var(--green-soft); box-shadow: 0 0 22px rgba(38,226,122,.11); }
-.history-item:first-child::before { left: -24px; top: 28px; width: 10px; height: 10px; background: var(--green); border: 3px solid #b3ffd0; box-shadow: 0 0 14px var(--green); }
-.history-summary { padding: 18px 16px; cursor: pointer; list-style: none; }
-.history-summary::-webkit-details-marker { display: none; }
+.history-item.is-active { margin-bottom: 7px; border: 1px solid rgba(38,226,122,.65); border-radius: 12px; background: var(--green-soft); box-shadow: 0 0 22px rgba(38,226,122,.11); }
+.history-item.is-active::before { left: -24px; top: 28px; width: 10px; height: 10px; background: var(--green); border: 3px solid #b3ffd0; box-shadow: 0 0 14px var(--green); }
+.history-summary { display: block; padding: 18px 16px; cursor: pointer; list-style: none; }
 .history-summary time { color: #c6cdd1; font-size: 15px; }
-.history-item:first-child time { color: #eef4f0; font-weight: 700; }
+.history-item.is-active time { color: #eef4f0; font-weight: 700; }
 .history-today { display: block; margin-top: 5px; color: #54df86; font-size: 13px; }
 .history-preview, .history-tag { display: none; }
-.history-content { padding: 0 16px 15px; color: #aeb8bf; font-size: 13px; line-height: 1.55; }
-.history-content p { margin: 0 0 9px; }
-.history-content p:last-child { margin-bottom: 0; }
 .history-more { width: 100%; margin-top: 22px; padding: 14px; color: #c4ccd1; border: 1px solid var(--line); border-radius: 10px; background: rgba(5,13,18,.32); font: inherit; }
 .history-more span { float: right; }
 
