@@ -124,17 +124,29 @@ def mode_label(mode: str) -> str:
 
 def render_history_item(post: Post, is_latest: bool = False) -> str:
     return f"""
-    <details class="history-item">
-      <summary class="history-summary">
+    <button class="history-item{' is-active' if is_latest else ''}" type="button"
+            data-post-id="post-{html.escape(post.date)}" aria-pressed="{'true' if is_latest else 'false'}">
+      <span class="history-summary">
         <div class="history-summary-top">
           <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
           <span class="history-tag">{html.escape(mode_label(post.mode))}</span>
         </div>
         {'<span class="history-today">Сегодня</span>' if is_latest else ''}
         <div class="history-preview">{html.escape(post.preview)}</div>
-      </summary>
-      <div class="history-content">{paragraphize(post.body)}</div>
-    </details>
+      </span>
+    </button>
+    """.strip()
+
+
+def render_post_template(post: Post, is_latest: bool = False) -> str:
+    return f"""
+    <template id="post-{html.escape(post.date)}">
+      <div class="message-meta">
+        {'<span class="today-badge">Сегодня</span>' if is_latest else ''}
+        <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
+      </div>
+      <div class="message-body">{paragraphize(post.body)}</div>
+    </template>
     """.strip()
 
 
@@ -143,6 +155,7 @@ def render_page(posts: List[Post]) -> str:
     history_html = "\n".join(render_history_item(post, index == 0) for index, post in enumerate(posts)) or (
         '<div class="empty-history">Пока что других записей нет.</div>'
     )
+    post_templates = "\n".join(render_post_template(post, index == 0) for index, post in enumerate(posts))
 
     return f"""<!doctype html>
 <html lang="ru">
@@ -174,7 +187,7 @@ def render_page(posts: List[Post]) -> str:
 
     <main class="content-grid">
       <section class="latest-section" aria-label="Последняя запись">
-        <article class="message-card-latest">
+        <article class="message-card-latest" id="active-post" aria-live="polite">
           <div class="message-meta">
             <span class="today-badge">Сегодня</span>
             <time datetime="{html.escape(latest.date)}">{html.escape(pretty_date(latest.date))}</time>
@@ -192,12 +205,14 @@ def render_page(posts: List[Post]) -> str:
         <div class="history-list">{history_html}</div>
         <button class="history-more" type="button">Показать ещё <span>⌄</span></button>
       </section>
+      {post_templates}
     </main>
     <footer class="site-footer">
       <div class="quote"><img src="assets/behemoth-quill.svg" alt=""><span>Рукописи не горят. Зато отлично пылятся. &nbsp;— <b>М. А. Б.</b></span></div>
       <div class="copyright">© Хроники Бегемота, 2026<br>Сделано с чёрным юмором и вниманием к деталям.</div>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
 """
@@ -216,6 +231,7 @@ def build() -> None:
     (SITE_DIR / "index.html").write_text(render_page(posts), encoding="utf-8")
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
     shutil.copy2(WEB_DIR / "style.css", SITE_DIR / "style.css")
+    shutil.copy2(WEB_DIR / "script.js", SITE_DIR / "script.js")
     shutil.copytree(WEB_DIR / "assets", SITE_DIR / "assets")
     print(f"Built {len(posts)} posts into {SITE_DIR / 'index.html'}")
 
