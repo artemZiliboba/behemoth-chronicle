@@ -34,7 +34,7 @@ body::before {
   width: min(1394px, calc(100% - 72px));
   min-height: 100vh;
   margin: 0 auto;
-  padding: 84px 0 20px;
+  padding: 44px 0 20px;
 }
 .page-shell::after {
   content: "";
