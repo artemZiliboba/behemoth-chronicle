@@ -122,25 +122,37 @@ def mode_label(mode: str) -> str:
     return MODE_LABELS.get(mode, mode.replace("-", " ").title())
 
 
-def render_history_item(post: Post) -> str:
+def render_history_item(post: Post, is_latest: bool = False) -> str:
     return f"""
-    <details class="history-item">
-      <summary class="history-summary">
-        <div class="history-summary-top">
-          <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
-          <span class="history-tag">{html.escape(mode_label(post.mode))}</span>
-        </div>
-        <div class="history-preview">{html.escape(post.preview)}</div>
-      </summary>
-      <div class="history-content">{paragraphize(post.body)}</div>
-    </details>
+    <button class="history-item{' is-selected' if is_latest else ''}" type="button"
+            data-post-date="{html.escape(post.date)}" aria-pressed="{'true' if is_latest else 'false'}">
+      <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
+        {'<span class="history-today">Сегодня</span>' if is_latest else ''}
+    </button>
+    """.strip()
+
+
+def render_article(post: Post, is_latest: bool = False) -> str:
+    reading_minutes = max(1, round(len(post.body.split()) / 180))
+    return f"""
+    <article class="message-card-latest{' is-active' if is_latest else ''}"
+             data-article-date="{html.escape(post.date)}" {'hidden' if not is_latest else ''}>
+      <div class="message-meta">
+        {'<span class="today-badge">Сегодня</span>' if is_latest else ''}
+        <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
+      </div>
+      <div class="message-body">{paragraphize(post.body)}</div>
+      <footer class="article-footer">
+        <div class="tag-list"><span class="tag">{html.escape(mode_label(post.mode))}</span></div>
+        <span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>~ {reading_minutes} мин чтения</span>
+      </footer>
+    </article>
     """.strip()
 
 
 def render_page(posts: List[Post]) -> str:
-    latest = posts[0]
-    older = posts[1:]
-    history_html = "\n".join(render_history_item(post) for post in older) or (
+    articles_html = "\n".join(render_article(post, index == 0) for index, post in enumerate(posts))
+    history_html = "\n".join(render_history_item(post, index == 0) for index, post in enumerate(posts)) or (
         '<div class="empty-history">Пока что других записей нет.</div>'
     )
 
@@ -153,44 +165,41 @@ def render_page(posts: List[Post]) -> str:
   <meta name="description" content="Хроники Бегемота — живая московская хроника, обновляющаяся день за днём.">
   <title>Хроники Бегемота</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="page-shell">
-    <div class="ambient ambient-a"></div>
-    <div class="ambient ambient-b"></div>
+    <nav class="topbar" aria-label="Навигация">
+      <button class="icon-button" type="button" aria-label="Открыть меню"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <div class="top-actions">
+        <button class="icon-button" type="button" aria-label="Тёмная тема"><svg viewBox="0 0 24 24"><path d="M20 15.4A8.5 8.5 0 0 1 8.6 4a8.5 8.5 0 1 0 11.4 11.4Z"/></svg></button>
+        <a class="icon-button" href="#history" aria-label="Архив"><svg viewBox="0 0 24 24"><path d="M5 19a14 14 0 0 1 14-14M5 13a6 6 0 0 1 6 6M5 7a12 12 0 0 1 12 12"/><circle cx="5" cy="19" r="1"/></svg></a>
+      </div>
+    </nav>
 
     <header class="hero">
       <div class="hero-copy">
-        <div class="eyebrow">Архив наблюдений и происшествий</div>
         <h1>Хроники Бегемота</h1>
+        <div class="eyebrow">Архив наблюдений и происшествий</div>
         <p class="hero-text">Московская жизнь, долги, примусы, достоинство и редкие случаи бытовой метафизики.</p>
       </div>
     </header>
 
     <main class="content-grid">
-      <section class="latest-section">
-        <div class="section-heading">
-          <span class="section-kicker">Последняя запись</span>
-          <span class="section-date">{html.escape(pretty_date(latest.date))}</span>
-        </div>
-
-        <article class="message-card message-card-latest">
-          <div class="message-meta">
-            <time datetime="{html.escape(latest.date)}">{html.escape(pretty_date(latest.date))}</time>
-            <span class="message-mode">{html.escape(mode_label(latest.mode))}</span>
-          </div>
-          <div class="message-body">{paragraphize(latest.body)}</div>
-        </article>
+      <section class="latest-section" aria-label="Последняя запись">
+        {articles_html}
       </section>
 
-      <section class="history-section">
-        <div class="section-heading">
-          <span class="section-kicker">Что уже случилось</span>
-          <span class="section-date">нажмите на запись</span>
-        </div>
+      <section class="history-section" id="history">
+        <div class="history-heading"><span>Выберите день</span><svg viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M8 3v6M16 3v6M4 10h16M9 14h2"/></svg></div>
         <div class="history-list">{history_html}</div>
+        <button class="history-more" type="button">Показать ещё <span>⌄</span></button>
       </section>
     </main>
+    <footer class="site-footer">
+      <div class="quote"><img src="assets/behemoth-quill.svg" alt=""><span>Рукописи не горят. Зато отлично пылятся. &nbsp;— <b>М. А. Б.</b></span></div>
+      <div class="copyright">© Хроники Бегемота, 2026<br>Сделано с чёрным юмором и вниманием к деталям.</div>
+    </footer>
   </div>
 </body>
 </html>
@@ -210,6 +219,8 @@ def build() -> None:
     (SITE_DIR / "index.html").write_text(render_page(posts), encoding="utf-8")
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
     shutil.copy2(WEB_DIR / "style.css", SITE_DIR / "style.css")
+    shutil.copy2(WEB_DIR / "script.js", SITE_DIR / "script.js")
+    shutil.copytree(WEB_DIR / "assets", SITE_DIR / "assets")
     print(f"Built {len(posts)} posts into {SITE_DIR / 'index.html'}")
 
 
