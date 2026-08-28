@@ -123,16 +123,16 @@ def mode_label(mode: str) -> str:
 
 
 def render_history_item(post: Post, is_latest: bool = False) -> str:
+    year, month, day = post.date.split("-")
     return f"""
     <button class="history-item{' is-active' if is_latest else ''}" type="button"
-            data-post-id="post-{html.escape(post.date)}" aria-pressed="{'true' if is_latest else 'false'}">
+            data-post-id="post-{html.escape(post.date)}" data-date="{html.escape(pretty_date(post.date))}" data-latest="{str(is_latest).lower()}" aria-pressed="{'true' if is_latest else 'false'}">
       <span class="history-summary">
-        <div class="history-summary-top">
-          <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
-          <span class="history-tag">{html.escape(mode_label(post.mode))}</span>
-        </div>
-        {'<span class="history-today">Сегодня</span>' if is_latest else ''}
-        <div class="history-preview">{html.escape(post.preview)}</div>
+        <time datetime="{html.escape(post.date)}">
+          <span class="history-day">{int(day)}</span>
+          <span class="history-date"><b>{MONTHS[int(month)]}</b><span>{year}</span></span>
+        </time>
+        {'<span class="history-today">Сегодня.</span>' if is_latest else ''}
       </span>
     </button>
     """.strip()
@@ -141,11 +141,6 @@ def render_history_item(post: Post, is_latest: bool = False) -> str:
 def render_post_template(post: Post, is_latest: bool = False) -> str:
     return f"""
     <template id="post-{html.escape(post.date)}">
-      <div class="message-meta">
-        {'<span class="today-badge">Сегодня</span>' if is_latest else ''}
-        <time datetime="{html.escape(post.date)}">{html.escape(pretty_date(post.date))}</time>
-        <span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>≈ 5 мин чтения</span>
-      </div>
       <div class="message-body">{paragraphize(post.body)}</div>
     </template>
     """.strip()
@@ -163,48 +158,42 @@ def render_page(posts: List[Post]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#09090d">
+  <meta name="theme-color" content="#d8c7a5">
   <meta name="description" content="Хроники Бегемота — живая московская хроника, обновляющаяся день за днём.">
   <title>Хроники Бегемота</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&amp;family=PT+Serif:wght@400;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="page-shell">
     <header class="hero">
-      <div class="hero-copy">
-        <h1>Хроники Бегемота</h1>
-        <div class="eyebrow">Архив наблюдений и происшествий</div>
-        <p class="hero-text">Московская жизнь, долги, примусы, достоинство и редкие случаи бытовой метафизики.</p>
+      <div class="side-stamp">Архив · Москва · 2026</div>
+      <div class="masthead">
+        <h1>Хроники<br>Бегемота</h1>
+        <div class="issue"><b>№ <span>028</span></b><span>Москва</span><span>2026</span></div>
+        <nav aria-label="Основная навигация"><a href="#history">Архив</a><a href="#about">О проекте</a></nav>
       </div>
+      <div class="eyebrow">Архив наблюдений и происшествий</div>
     </header>
 
     <main class="content-grid">
       <section class="latest-section" aria-label="Последняя запись">
+        <div class="edition-line"><span id="edition-date"><b>Сегодня.</b> {html.escape(pretty_date(latest.date))}</span><span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>≈ 5 мин. чтения.</span></div>
         <article class="message-card-latest" id="active-post" aria-live="polite">
-          <div class="message-meta">
-            <span class="today-badge">Сегодня</span>
-            <time datetime="{html.escape(latest.date)}">{html.escape(pretty_date(latest.date))}</time>
-            <span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>≈ 5 мин чтения</span>
-          </div>
           <div class="message-body">{paragraphize(latest.body)}</div>
-          <footer class="article-footer">
-            <div class="tag-list"><span class="tag">домоуправление</span><span class="tag">быт</span></div>
-            <div class="article-actions" aria-label="Действия с записью">
-              <button type="button" aria-label="Сохранить"><svg viewBox="0 0 24 24"><path d="M6 4h12v16l-6-4-6 4Z"/></svg></button>
-              <button type="button" aria-label="Поделиться"><svg viewBox="0 0 24 24"><path d="M14 5l5 5-5 5v-3c-5 0-8 2-10 6 1-6 4-10 10-10Z"/></svg></button>
-            </div>
-          </footer>
         </article>
       </section>
 
       <section class="history-section" id="history">
-        <div class="history-heading"><span>Выберите день</span><svg viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M8 3v6M16 3v6M4 10h16M9 14h2"/></svg></div>
+        <div class="history-heading">Выберите день.</div>
         <div class="history-list">{history_html}</div>
-        <button class="history-more" type="button">Показать ещё <span>⌄</span></button>
+        <button class="history-more" type="button"><span aria-hidden="true">↓</span> Показать ещё.</button>
       </section>
       {post_templates}
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer" id="about">
       <div class="quote"><span class="quote-mark" aria-hidden="true">“</span><span>Рукописи не горят. Зато отлично пылятся.<br><b>— М. А. Б.</b></span></div>
       <div class="copyright">© Хроники Бегемота, 2026<br>Сделано с чёрным юмором и вниманием к деталям.</div>
     </footer>
