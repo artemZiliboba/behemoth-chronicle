@@ -127,12 +127,15 @@ def render_history_item(post: Post, is_latest: bool = False) -> str:
     return f"""
     <button class="history-item{' is-active' if is_latest else ''}" type="button"
             data-post-id="post-{html.escape(post.date)}" data-date="{html.escape(pretty_date(post.date))}" data-latest="{str(is_latest).lower()}" aria-pressed="{'true' if is_latest else 'false'}">
+      <svg class="history-frame" viewBox="0 0 320 152" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M15 1H305V5H312V11H319V59L312 66L319 73V141H312V147H305V151H15V147H8V141H1V73L8 66L1 59V11H8V5H15Z"/>
+        <path d="M17 5H303V9H308V15H315V57L307 66L315 75V137H308V143H303V147H17V143H12V137H5V75L13 66L5 57V15H12V9H17Z"/>
+      </svg>
       <span class="history-summary">
         <time datetime="{html.escape(post.date)}">
           <span class="history-day">{int(day)}</span>
-          <span class="history-date"><b>{MONTHS[int(month)]}</b><span>{year}</span></span>
+          <span class="history-date"><b>{MONTHS[int(month)]}</b><span>{year}</span>{'<i>Сегодня.</i>' if is_latest else ''}</span>
         </time>
-        {'<span class="history-today">Сегодня.</span>' if is_latest else ''}
       </span>
     </button>
     """.strip()
@@ -163,7 +166,7 @@ def render_page(posts: List[Post]) -> str:
   <title>Хроники Бегемота</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&amp;family=PT+Serif:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Old+Standard+TT:wght@400;700&amp;family=Roboto+Condensed:wght@400;500;600;700&amp;family=Yanone+Kaffeesatz:wght@600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -180,7 +183,7 @@ def render_page(posts: List[Post]) -> str:
 
     <main class="content-grid">
       <section class="latest-section" aria-label="Последняя запись">
-        <div class="edition-line"><span id="edition-date"><b>Сегодня.</b> {html.escape(pretty_date(latest.date))}</span><span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>≈ 5 мин. чтения.</span></div>
+        <div class="edition-line"><span id="edition-date"><b>Сегодня.</b> {html.escape(pretty_date(latest.date))}</span></div>
         <article class="message-card-latest" id="active-post" aria-live="polite">
           <div class="message-body">{paragraphize(latest.body)}</div>
         </article>
