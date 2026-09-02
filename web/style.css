@@ -72,8 +72,12 @@ button { font: inherit; }
 .history-item.is-active::before { display: none; }
 .history-item.is-active .history-day { color: var(--red); font-size: 74px; }
 .history-today { display: block; margin: 3px 0 0 105px; color: var(--red); font-weight: 700; }
+.history-item[hidden] { display: none; }
 .history-more { display: flex; align-items: center; gap: 25px; width: 100%; padding: 23px 0; border: 0; background: transparent; font: 500 14px/1 var(--display); letter-spacing: .2em; text-transform: uppercase; cursor: pointer; }
-.history-more span { display: grid; place-items: center; width: 31px; height: 31px; border: 1px solid var(--ink); border-radius: 50%; font-size: 20px; }
+.history-more-icon { position: relative; width: 39px; height: 39px; border: 1px solid var(--ink); border-radius: 50%; transition: transform .2s ease; }
+.history-more-icon::before { content: ""; position: absolute; top: 9px; left: 18px; width: 1px; height: 18px; background: currentColor; }
+.history-more-icon::after { content: ""; position: absolute; bottom: 10px; left: 14px; width: 8px; height: 8px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: rotate(45deg); }
+.history-more[aria-expanded="true"] .history-more-icon { transform: rotate(180deg); }
 
 .site-footer { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-top: 18px; padding: 26px 0 0; border-top: 4px double var(--rule); font-size: 14px; }
 .quote { display: flex; align-items: flex-start; gap: 18px; line-height: 1.7; }

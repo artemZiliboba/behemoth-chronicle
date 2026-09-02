@@ -123,10 +123,10 @@ def mode_label(mode: str) -> str:
     return MODE_LABELS.get(mode, mode.replace("-", " ").title())
 
 
-def render_history_item(post: Post, is_latest: bool = False) -> str:
+def render_history_item(post: Post, is_latest: bool = False, is_hidden: bool = False) -> str:
     year, month, day = post.date.split("-")
     return f"""
-    <button class="history-item{' is-active' if is_latest else ''}" type="button"
+    <button class="history-item{' is-active' if is_latest else ''}" type="button"{' data-history-overflow hidden' if is_hidden else ''}
             data-post-id="post-{html.escape(post.date)}" data-date="{html.escape(pretty_date(post.date))}" data-latest="{str(is_latest).lower()}" aria-pressed="{'true' if is_latest else 'false'}">
       <span class="history-summary">
         <time datetime="{html.escape(post.date)}">
@@ -151,9 +151,19 @@ def render_page(posts: List[Post]) -> str:
     latest = posts[0]
     issue_number = f"{len(posts):03d}"
     current_year = date.today().year
-    history_html = "\n".join(render_history_item(post, index == 0) for index, post in enumerate(posts)) or (
+    history_html = "\n".join(
+        render_history_item(post, index == 0, index >= 5) for index, post in enumerate(posts)
+    ) or (
         '<div class="empty-history">Пока что других записей нет.</div>'
     )
+    history_more = ""
+    if len(posts) > 5:
+        history_more = """
+        <button class="history-more" type="button" aria-expanded="false">
+          <span class="history-more-icon" aria-hidden="true"></span>
+          <span class="history-more-label">Показать ещё.</span>
+        </button>
+        """.strip()
     post_templates = "\n".join(render_post_template(post, index == 0) for index, post in enumerate(posts))
 
     return f"""<!doctype html>
@@ -192,7 +202,7 @@ def render_page(posts: List[Post]) -> str:
       <section class="history-section" id="history">
         <div class="history-heading">Выберите день.</div>
         <div class="history-list">{history_html}</div>
-        <button class="history-more" type="button"><span aria-hidden="true">↓</span> Показать ещё.</button>
+        {history_more}
       </section>
       {post_templates}
     </main>

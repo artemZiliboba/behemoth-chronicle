@@ -1,6 +1,22 @@
 const activePost = document.querySelector("#active-post");
 const editionDate = document.querySelector("#edition-date");
 const historyItems = document.querySelectorAll(".history-item[data-post-id]");
+const overflowHistoryItems = document.querySelectorAll(".history-item[data-history-overflow]");
+const historyMore = document.querySelector(".history-more");
+const historyMoreLabel = historyMore?.querySelector(".history-more-label");
+
+historyMore?.addEventListener("click", () => {
+  const isExpanded = historyMore.getAttribute("aria-expanded") === "true";
+
+  for (const item of overflowHistoryItems) {
+    item.hidden = isExpanded;
+  }
+
+  historyMore.setAttribute("aria-expanded", String(!isExpanded));
+  if (historyMoreLabel) {
+    historyMoreLabel.textContent = isExpanded ? "Показать ещё." : "Скрыть.";
+  }
+});
 
 for (const item of historyItems) {
   item.addEventListener("click", () => {
