@@ -53,8 +53,6 @@ button { font: inherit; }
 .latest-section { padding-right: 44px; }
 .edition-line { display: flex; justify-content: space-between; gap: 20px; padding: 27px 0 22px; border-bottom: 1px solid var(--rule); font: 500 17px/1.2 var(--display); letter-spacing: .04em; }
 .edition-line b { margin-right: 17px; color: var(--red); text-transform: uppercase; letter-spacing: .1em; }
-.reading-time { display: flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: .14em; white-space: nowrap; }
-.reading-time svg { width: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; }
 .message-card-latest { padding-top: 18px; }
 .message-body p { margin: 0 0 10px; font-size: 17px; line-height: 1.42; }
 .message-body p:first-child { max-width: 650px; margin: 0 0 32px; padding-bottom: 28px; font: 500 clamp(39px, 4.2vw, 55px)/.99 var(--display); }
@@ -104,7 +102,6 @@ button { font: inherit; }
   .masthead nav { gap: 30px; font-size: 13px; }
   .eyebrow { padding: 17px 0 14px; font-size: 12px; letter-spacing: .2em; }
   .edition-line { align-items: flex-start; flex-direction: column; padding: 20px 0 17px; }
-  .reading-time { font-size: 13px; }
   .message-body p { font-size: 16px; line-height: 1.5; }
   .message-body p:first-child { font-size: 38px; }
   .history-section { padding-left: 34px; border-left-width: 1px; }
