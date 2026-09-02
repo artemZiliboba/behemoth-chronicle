@@ -4,6 +4,7 @@ import html
 import re
 import shutil
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 from typing import Dict, List
 
@@ -122,10 +123,10 @@ def mode_label(mode: str) -> str:
     return MODE_LABELS.get(mode, mode.replace("-", " ").title())
 
 
-def render_history_item(post: Post, is_latest: bool = False) -> str:
+def render_history_item(post: Post, is_latest: bool = False, is_hidden: bool = False) -> str:
     year, month, day = post.date.split("-")
     return f"""
-    <button class="history-item{' is-active' if is_latest else ''}" type="button"
+    <button class="history-item{' is-active' if is_latest else ''}" type="button"{' data-history-overflow hidden' if is_hidden else ''}
             data-post-id="post-{html.escape(post.date)}" data-date="{html.escape(pretty_date(post.date))}" data-latest="{str(is_latest).lower()}" aria-pressed="{'true' if is_latest else 'false'}">
       <span class="history-summary">
         <time datetime="{html.escape(post.date)}">
@@ -148,9 +149,21 @@ def render_post_template(post: Post, is_latest: bool = False) -> str:
 
 def render_page(posts: List[Post]) -> str:
     latest = posts[0]
-    history_html = "\n".join(render_history_item(post, index == 0) for index, post in enumerate(posts)) or (
+    issue_number = f"{len(posts):03d}"
+    current_year = date.today().year
+    history_html = "\n".join(
+        render_history_item(post, index == 0, index >= 5) for index, post in enumerate(posts)
+    ) or (
         '<div class="empty-history">Пока что других записей нет.</div>'
     )
+    history_more = ""
+    if len(posts) > 5:
+        history_more = """
+        <button class="history-more" type="button" aria-expanded="false">
+          <span class="history-more-icon" aria-hidden="true"></span>
+          <span class="history-more-label">Показать ещё.</span>
+        </button>
+        """.strip()
     post_templates = "\n".join(render_post_template(post, index == 0) for index, post in enumerate(posts))
 
     return f"""<!doctype html>
@@ -172,7 +185,7 @@ def render_page(posts: List[Post]) -> str:
       <div class="side-stamp">Архив · Москва · 2026</div>
       <div class="masthead">
         <h1>Хроники<br>Бегемота</h1>
-        <div class="issue"><b>№ <span>028</span></b><span>Москва</span><span>2026</span></div>
+        <div class="issue"><b>№ <span>{issue_number}</span></b><span>Москва</span><span>2026</span></div>
         <nav aria-label="Основная навигация"><a href="#history">Архив</a><a href="#about">О проекте</a></nav>
       </div>
       <div class="eyebrow">Архив наблюдений и происшествий</div>
@@ -180,7 +193,7 @@ def render_page(posts: List[Post]) -> str:
 
     <main class="content-grid">
       <section class="latest-section" aria-label="Последняя запись">
-        <div class="edition-line"><span id="edition-date"><b>Сегодня.</b> {html.escape(pretty_date(latest.date))}</span><span class="reading-time"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>≈ 5 мин. чтения.</span></div>
+        <div class="edition-line"><span id="edition-date"><b>Сегодня.</b> {html.escape(pretty_date(latest.date))}</span></div>
         <article class="message-card-latest" id="active-post" aria-live="polite">
           <div class="message-body">{paragraphize(latest.body)}</div>
         </article>
@@ -189,13 +202,13 @@ def render_page(posts: List[Post]) -> str:
       <section class="history-section" id="history">
         <div class="history-heading">Выберите день.</div>
         <div class="history-list">{history_html}</div>
-        <button class="history-more" type="button"><span aria-hidden="true">↓</span> Показать ещё.</button>
+        {history_more}
       </section>
       {post_templates}
     </main>
     <footer class="site-footer" id="about">
       <div class="quote"><span class="quote-mark" aria-hidden="true">“</span><span>Рукописи не горят. Зато отлично пылятся.<br><b>— М. А. Б.</b></span></div>
-      <div class="copyright">© Хроники Бегемота, 2026<br>Сделано с чёрным юмором и вниманием к деталям.</div>
+      <div class="copyright">© Хроники Бегемота, {current_year}<br>Сделано с чёрным юмором и вниманием к деталям.</div>
     </footer>
   </div>
   <script src="script.js"></script>
