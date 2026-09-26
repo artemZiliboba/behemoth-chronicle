@@ -1,10 +1,10 @@
 # Continuity Ledger
 
-Previous records through 2026-09-24 are preserved in state/continuity_ledger.archive-2026-09-24.md.
+Archive through 2026-09-24: state/continuity_ledger.archive-2026-09-24.md
 
 ## 2026-09-25
+- Newspaper chess puzzle solved correctly; game score unchanged; no meeting scheduled.
 
-- The established chess acquaintance continued through a newspaper puzzle.
-- Behemoth solved it on the same day.
-- The existing game score did not change.
-- No new appointment or obligation was created.
+## 2026-09-26
+- Blue enamel mug cleaned; enamel intact and no chips.
+- No new debts, promises, meetings, conflicts, or active story lines.

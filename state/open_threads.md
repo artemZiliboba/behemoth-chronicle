@@ -2,6 +2,7 @@
 
 No active story lines.
 
-Previous records are preserved in state/open_threads.archive-2026-09-24.md.
+Previous records through 2026-09-24 are preserved in state/open_threads.archive-2026-09-24.md.
 
-The chess encounter on 2026-09-25 did not create a new obligation.
+- 2026-09-25: газетная шахматная задача решена в тот же день; нового обязательства не возникло.
+- 2026-09-26: чистка личной синей кружки завершена в тот же день; нового сюжетного потока не возникло.
