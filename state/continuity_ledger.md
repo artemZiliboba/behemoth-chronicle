@@ -12,3 +12,10 @@ Archive through 2026-09-24: state/continuity_ledger.archive-2026-09-24.md
 ## 2026-09-27
 - Communal kitchen was temporarily occupied by a laundry-boiling pot until midday; the situation ended without conflict.
 - Behemoth used his working primus in his room to make coffee; no new possession, debt, promise, meeting, or active story line was created.
+
+## 2026-09-28
+- The right bracket of the communal kitchen wall shelf pulled free from the wall; the shelf was unloaded and taken out of use before anything broke.
+- Cups, jars, and the sugar bowl were relocated to the cupboard and windowsill; no injuries or property damage occurred.
+- Behemoth's blue enamel mug remained intact and was not stored on the failing shelf.
+- The responsible tenant intends to obtain replacement fastening and repair the shelf; this is not a personal obligation or appointment for Behemoth.
+- New active thread: kitchen-shelf-repair.
