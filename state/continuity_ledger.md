@@ -26,3 +26,8 @@ Archive through 2026-09-24: state/continuity_ledger.archive-2026-09-24.md
 - Behemoth's blue enamel mug remained intact and did not participate in the shelf test.
 - No injury, debt, promise, appointment, or personal repair obligation was created for Behemoth.
 - Thread kitchen-shelf-repair closed.
+
+## 2026-09-30
+- Primus briefly produced uneven, sooty flame before breakfast; Behemoth shut it down, let it cool, and cleaned the burner with a needle.
+- After cleaning, the primus burned evenly and remained functional; no damage, injury, debt, promise, appointment, or new story line resulted.
+- Blue enamel mug remains clean, intact, and under Behemoth's control.
