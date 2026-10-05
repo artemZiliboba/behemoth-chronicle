@@ -18,3 +18,9 @@ Archive through 2026-09-30: state/continuity_ledger.archive-2026-09-30.md
 - The gray-haired player won; cumulative score is now two wins for him, one win for Behemoth, and one draw.
 - No fifth game was scheduled, promised, or otherwise made obligatory; the old courtyard-chess-rematch thread remains closed.
 - No debt, injury, possession change, institutional attention, or new story line was created.
+
+## 2026-10-05
+- The neighbor from the room opposite gave Behemoth one warm cabbage pirozhok after cooking in the communal kitchen.
+- The gift was explicitly without conditions and was eaten with coffee the same morning.
+- No debt, favor owed, promise, appointment, possession change, conflict, or new story line was created.
+- Primus remains functional; blue enamel mug remains clean, intact, and under Behemoth's control.
