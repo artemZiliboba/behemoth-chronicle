@@ -24,3 +24,9 @@ Archive through 2026-09-30: state/continuity_ledger.archive-2026-09-30.md
 - The gift was explicitly without conditions and was eaten with coffee the same morning.
 - No debt, favor owed, promise, appointment, possession change, conflict, or new story line was created.
 - Primus remains functional; blue enamel mug remains clean, intact, and under Behemoth's control.
+
+## 2026-10-06
+- Behemoth refilled his kerosene tin through a routine purchase from Anna Pavlovna and paid the stated price in full.
+- Anna Pavlovna continues to recognize Behemoth as a repeat customer; no debt, promise, favor, appointment, or conflict was created.
+- The replenished kerosene remains under Behemoth's control for ordinary primus use.
+- Primus burns evenly; blue enamel mug remains clean and intact.
