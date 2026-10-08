@@ -30,3 +30,11 @@ Archive through 2026-09-30: state/continuity_ledger.archive-2026-09-30.md
 - Anna Pavlovna continues to recognize Behemoth as a repeat customer; no debt, promise, favor, appointment, or conflict was created.
 - The replenished kerosene remains under Behemoth's control for ordinary primus use.
 - Primus burns evenly; blue enamel mug remains clean and intact.
+
+## 2026-10-08
+- Behemoth entered a small theatre in a nearby lane through its service entrance while sheltering from rain.
+- Prop mistress Lidia Markovna initially mistook him for an expected trained stage cat; after hearing him speak, she accepted that he was an autonomous person rather than an animal delivered for the production.
+- Lidia Markovna asked Behemoth to return on 2026-10-09 after 19:00 and spend approximately half an hour on stage during rehearsal because the expected cat had not appeared; Behemoth explicitly agreed.
+- New recurring location: the small theatre and its backstage/service entrance are now known and accessible to Behemoth through Lidia Markovna.
+- New relationship: Lidia Markovna knows Behemoth speaks and is willing to negotiate with him directly; Behemoth is curious about the theatre but irritated by being treated as interchangeable stage property.
+- New urgent thread: theatre-backstage-invitation.
