@@ -38,3 +38,10 @@ Archive through 2026-09-30: state/continuity_ledger.archive-2026-09-30.md
 - New recurring location: the small theatre and its backstage/service entrance are now known and accessible to Behemoth through Lidia Markovna.
 - New relationship: Lidia Markovna knows Behemoth speaks and is willing to negotiate with him directly; Behemoth is curious about the theatre but irritated by being treated as interchangeable stage property.
 - New urgent thread: theatre-backstage-invitation.
+
+## 2026-10-09
+- Behemoth fulfilled his commitment to Lidia Markovna: he attended the small theatre after 19:00 and sat silently onstage for the agreed half-hour of rehearsal. The theatre-backstage-invitation promise is resolved.
+- A director observed that Behemoth's fixed gaze persuaded one actor to stop interrupting another and said he wanted the cat in the scene; Behemoth neither accepted another engagement nor received payment.
+- Lidia Markovna lent Behemoth an annotated copy of the play to read. He promised to return it without a deadline. The copy remains the theatre's/Lidia's property, now in Behemoth's room. Open thread: theatre-script-return.
+- Lidia Markovna knows Behemoth can speak; the director and performers heard no speech from him. She trusts him more after the rehearsal.
+- The service entrance/backstage remains accessible via Lidia, not as unrestricted public access. No injuries, other obligations or changes to household possessions or chess score.
