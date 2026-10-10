@@ -45,3 +45,11 @@ Archive through 2026-09-30: state/continuity_ledger.archive-2026-09-30.md
 - Lidia Markovna lent Behemoth an annotated copy of the play to read. He promised to return it without a deadline. The copy remains the theatre's/Lidia's property, now in Behemoth's room. Open thread: theatre-script-return.
 - Lidia Markovna knows Behemoth can speak; the director and performers heard no speech from him. She trusts him more after the rehearsal.
 - The service entrance/backstage remains accessible via Lidia, not as unrestricted public access. No injuries, other obligations or changes to household possessions or chess score.
+
+## 2026-10-10
+- Behemoth read Lidia Markovna's annotated copy of the play and determined that the written text contains no cat role, entrance, line, or stage direction.
+- In the square/park near the theatre, Behemoth encountered the actor whose interruptions had caused trouble during the 2026-10-09 rehearsal. The actor recognized him but still did not hear him speak.
+- Behemoth silently pointed out the order of lines in the script, leading the actor to notice that he had been interrupting his partner contrary to the written text.
+- The borrowed play remains with Behemoth and must still be returned; no deadline has been set.
+- New open thread: theatre-missing-cat-role, concerning who introduced a cat into the production despite its absence from the written play and why.
+- No payment, new performance commitment, injury, household change, debt, or chess change occurred.
