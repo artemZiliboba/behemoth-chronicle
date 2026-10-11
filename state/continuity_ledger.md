@@ -53,3 +53,9 @@ Archive through 2026-09-30: state/continuity_ledger.archive-2026-09-30.md
 - The borrowed play remains with Behemoth and must still be returned; no deadline has been set.
 - New open thread: theatre-missing-cat-role, concerning who introduced a cat into the production despite its absence from the written play and why.
 - No payment, new performance commitment, injury, household change, debt, or chess change occurred.
+
+## 2026-10-11
+- Behemoth returned Lidia Markovna's play at the theatre. She put it in the prop room. The return obligation is complete.
+- Lidia said that the director requested a cat in the production, but she did not know his reason. The motive remains an open question.
+- At Behemoth's request, Lidia changed his entry in the props list from "one cat" to "by invitation".
+- No new performance or payment was agreed. Behemoth returned home well. His belongings, household arrangements and chess record are unchanged.

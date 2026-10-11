@@ -22,22 +22,22 @@ Previous records through 2026-09-24 are preserved in state/open_threads.archive-
 - Closure condition: выполнено 2026-10-09 — назначенная репетиция состоялась.
 
 ## theatre-script-return
-- Status: open
+- Status: closed
 - Opened: 2026-10-09
-- Last touched: 2026-10-10
-- Description: Лидия Марковна одолжила Бегемоту тонкую копию пьесы с пометками после репетиции; Бегемот прочитал её и должен вернуть.
-- Stakes / consequence: пьеса находится у Бегемота, но принадлежит Лидии Марковне/театру. Срока возврата нет. На 2026-10-10 экземпляр остаётся у Бегемота, потому что чтение открыло отдельный вопрос о несуществующей в тексте роли кота.
-- Plausible triggers: Бегемот вернёт пьесу Лидии Марковне; Лидия попросит экземпляр обратно; выяснение происхождения сценического кота приведёт его обратно в театр.
-- Closure condition: книга возвращена Лидии Марковне либо она освободит Бегемота от обязательства.
+- Last touched: 2026-10-11
+- Description: Lidia Markovna lent Behemoth a marked copy of the play, which he returned intact to her at the theatre on 2026-10-11. She stored it in the prop room cabinet.
+- Stakes / consequence: the return promise is fulfilled and the book is no longer with Behemoth.
+- Plausible triggers: contact with the theatre can continue under theatre-missing-cat-role.
+- Closure condition: met on 2026-10-11 when the script was returned.
 
 ## theatre-missing-cat-role
 - Status: open
 - Opened: 2026-10-10
-- Last touched: 2026-10-10
-- Description: прочитав одолженную пьесу, Бегемот обнаружил, что в авторском тексте вообще отсутствует кот, хотя театр приглашал животное и режиссёр хочет сохранить его в сцене.
-- Stakes / consequence: происхождение сценического кота стало отдельной загадкой театральной постановки; Бегемот намерен выяснить, кто добавил этот элемент и зачем.
-- Plausible triggers: возвращение пьесы Лидии Марковне; разговор с режиссёром; замечания или пометки в театральном экземпляре; очередная репетиция.
-- Closure condition: установлено, кто ввёл кота в постановку и по какой причине; дальнейшие последствия при необходимости переходят в новый thread.
+- Last touched: 2026-10-11
+- Description: The written play has no cat. Lidia said that the director requested the cat for the production but could not explain his reason. Behemoth noticed that the prop list counted him as one item. Lidia changed the wording to "by invitation" at his request.
+- Stakes / consequence: the director is identified as the source of the added cat, but his motive remains unknown. No new appearance, payment or appointment was agreed.
+- Plausible triggers: a future meeting with the director or further information from Lidia.
+- Closure condition: the director's reason for adding the cat is established.
 
 ## kitchen-shelf-repair
 - Status: closed
