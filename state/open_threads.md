@@ -13,3 +13,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-12
 - A neighbor briefly entrusted Behemoth with milk on the communal stove. He prevented a boil-over, was thanked with milk, and incurred no further obligation or new story thread.
+
+## 2026-10-13
+- Behemoth stopped a draft at his room window with removable folded newspaper freely given by the neighbor; no debt or new thread. The theatre question is still open.
