@@ -13,3 +13,10 @@ Previous entries through 2026-10-11: state/continuity_ledger.archive-2026-10-11.
 - The neighbor gave him the already-read newspaper freely; no repayment, return, or appointment was agreed.
 - Behemoth remains at home and well. His possessions and household fixtures remain in working order.
 - The theatre still holds Lidia's returned script, the director's motive is unknown, and Behemoth has no new performance commitment. Chess score unchanged.
+
+## 2026-10-14
+- Behemoth visited the small theatre through its service entrance with Lidia Markovna's permission; no general right of unrestricted entry was acquired.
+- The director explained that he deliberately inserted a cat not present in the written play as an independent, non-performing witness to prompt the actors to listen to each other. The director's previously unknown motive is now established; thread theatre-missing-cat-role closed.
+- The director asked Lidia whether Behemoth would come on 2026-10-15. Behemoth left without agreeing; there is no rehearsal or performance appointment, payment, fee offer, or debt.
+- Lidia continues to know Behemoth can speak and spoke with him privately, without revealing this to the director or performers.
+- Behemoth still does not possess the theatre script (returned 2026-10-11). The removable newspaper window draft stop remains installed at home; household equipment and chess record unchanged.
