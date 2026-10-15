@@ -20,3 +20,10 @@ Previous entries through 2026-10-11: state/continuity_ledger.archive-2026-10-11.
 - The director asked Lidia whether Behemoth would come on 2026-10-15. Behemoth left without agreeing; there is no rehearsal or performance appointment, payment, fee offer, or debt.
 - Lidia continues to know Behemoth can speak and spoke with him privately, without revealing this to the director or performers.
 - Behemoth still does not possess the theatre script (returned 2026-10-11). The removable newspaper window draft stop remains installed at home; household equipment and chess record unchanged.
+
+## 2026-10-15
+- Cold weather caused the established gray-haired courtyard chess player to pack away his outdoor chess set until spring; no game was played.
+- A black knight fell while he packed the set; Behemoth retrieved and returned it immediately. Ownership of the set and piece did not change.
+- The gray-haired player told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop and invited him casually to visit sometime.
+- No appointment, promise, debt or scheduled fifth game was created. Chess score remains two wins for the gray-haired player, one for Behemoth, and one draw.
+- New open thread: indoor-chess-room, a possible winter recurring location.
