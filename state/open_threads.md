@@ -14,11 +14,11 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 ## indoor-chess-room
 - Status: open
 - Opened: 2026-10-15
-- Last touched: 2026-10-15
-- Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that on Saturdays he plays in a chess room at a club near a tram stop and casually invited him to come sometime.
-- Stakes / consequence: Behemoth now knows a plausible winter chess location and may encounter the established player or new opponents there. No appointment, promise or fifth game was made.
-- Plausible triggers: a cold Saturday; Behemoth's curiosity about indoor chess; chance mention of the club or tram stop.
-- Closure condition: Behemoth visits and the location becomes established, or the invitation becomes irrelevant at the end of the indoor season.
+- Last touched: 2026-10-16
+- Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop. On 2026-10-16 Behemoth found the club and confirmed the Saturday chess schedule from a notice outside, but did not enter.
+- Stakes / consequence: Behemoth now knows the exact club location and its Saturday chess hours. The room may become a winter recurring location and a source of new opponents. No appointment, promise, fee, membership, or fifth game has been made.
+- Plausible triggers: a Saturday visit; Behemoth's curiosity about indoor chess; another encounter with the gray-haired player.
+- Closure condition: Behemoth visits during chess hours and the location becomes established in practice, or the invitation becomes irrelevant at the end of the indoor season.
 
 ## 2026-10-12
 - A neighbor briefly entrusted Behemoth with milk on the communal stove. He prevented a boil-over, was thanked with milk, and incurred no further obligation or new story thread.

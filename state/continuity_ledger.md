@@ -27,3 +27,10 @@ Previous entries through 2026-10-11: state/continuity_ledger.archive-2026-10-11.
 - The gray-haired player told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop and invited him casually to visit sometime.
 - No appointment, promise, debt or scheduled fifth game was created. Chess score remains two wins for the gray-haired player, one for Behemoth, and one draw.
 - New open thread: indoor-chess-room, a possible winter recurring location.
+
+## 2026-10-16
+- Behemoth located the club near the tram stop described by the gray-haired player.
+- A posted notice confirmed that the chess room operates on Saturdays.
+- Behemoth did not enter the club, meet the gray-haired player there, register, pay anything, promise to return, or schedule a fifth game.
+- The club's location and Saturday schedule are now known to Behemoth. The indoor-chess-room thread remains open.
+- Chess score remains two wins for the gray-haired player, one win for Behemoth, and one draw. Household possessions and theatre relationships are unchanged.
