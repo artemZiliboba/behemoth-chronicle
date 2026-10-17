@@ -1,9 +1,5 @@
 # Fictional World Snapshot
 
-As of 2026-10-16, Behemoth is well and has no immediate debt, promise, appointment, or performance obligation.
+As of 2026-10-17, Behemoth is well. He visited the chess room at the club near the tram stop and played his fifth game with the gray-haired courtyard player. The game ended in a draw. Their score is now two wins for the gray-haired player, one win for Behemoth, and two draws. The club is now a known winter chess location. No sixth game was arranged.
 
-The small-theatre mystery remains resolved: the director uses a cat as an unscripted neutral witness to make actors listen to one another. Behemoth has no performance agreement or fee arrangement. Lidia Markovna knows he can speak; the director and actors do not.
-
-The outdoor courtyard chess season has ended because of the cold. On 2026-10-16 Behemoth located the club near the tram stop mentioned by the established gray-haired player and confirmed from a posted schedule that its chess room operates on Saturdays. He did not enter, did not meet the gray-haired player there, and did not arrange a fifth game. Chess record remains two wins for the gray-haired player, one for Behemoth, and one draw. Behemoth now knows the club's location and Saturday schedule and may choose to visit later.
-
-At home, the removable folded newspaper still seals the gap at Behemoth's room window. His blue enamel mug remains clean and intact; the primus works, kerosene and household water are available, and the communal kitchen shelf remains repaired and in use.
+Theatre matters remain resolved, without any new performance commitment. Lidia Markovna still knows he can speak. At home the folded newspaper remains in the window gap; his mug, primus, kerosene supply and kitchen shelf remain as before.
