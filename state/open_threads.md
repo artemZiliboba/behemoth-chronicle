@@ -15,13 +15,16 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 - Status: closed
 - Opened: 2026-10-15
 - Last touched: 2026-10-17
-- Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop. On 2026-10-16 Behemoth found the club and confirmed the Saturday chess schedule from a notice outside, but did not enter.
-- Stakes / consequence: Behemoth now knows the exact club location and its Saturday chess hours. The room may become a winter recurring location and a source of new opponents. No appointment, promise, fee, membership, or fifth game has been made.
-- Plausible triggers: a Saturday visit; Behemoth's curiosity about indoor chess; another encounter with the gray-haired player.
-- Closure condition: fulfilled 2026-10-17: Behemoth visited and played there, drawing his fifth game against the gray-haired player. Their current score is two wins for him, one for Behemoth and two draws. The room is now a known possible winter location; no future game is arranged.
+- Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop. On 2026-10-16 Behemoth found the club and confirmed the Saturday chess schedule from a notice outside. On 2026-10-17 he visited, met the gray-haired player and drew their fifth game.
+- Stakes / consequence: The room is now a known winter chess location. Their score is two wins for the gray-haired player, one for Behemoth and two draws. No sixth game, fee, membership, promise or next visit is arranged.
+- Plausible triggers: a future Saturday visit, a new opponent, or another encounter with the gray-haired player.
+- Closure condition: fulfilled 2026-10-17 — Behemoth personally visited and played there.
 
 ## 2026-10-12
 - A neighbor briefly entrusted Behemoth with milk on the communal stove. He prevented a boil-over, was thanked with milk, and incurred no further obligation or new story thread.
 
 ## 2026-10-13
-- Behemoth stopped a draft at his room window with removable folded newspaper freely given by the neighbor; no debt or new thread. The theatre question was then still open.
+- Behemoth stopped a draft at his room window with removable folded newspaper freely given by the neighbor; no debt or new thread. The newspaper remains in place.
+
+## 2026-10-18
+- Behemoth reconstructed part of the 2026-10-17 chess game at home with household objects. The exercise created no new obligation, possession, relationship change, or story thread; the recorded game result remains a draw.
