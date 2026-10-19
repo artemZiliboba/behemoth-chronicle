@@ -14,3 +14,9 @@ Previous entries through 2026-10-16: state/continuity_ledger.archive-2026-10-16.
 - No evidence changed the recorded result of the fifth game. The score remains two wins for the gray-haired player, one for Behemoth, and two draws.
 - The blue enamel mug remains clean, intact, and under Behemoth's control; the teaspoon, coins and sugar bowl were not acquired or lost.
 - No new debt, promise, appointment, injury, access change, relationship change, or open story thread was created.
+
+## 2026-10-19
+- The neighbor from the opposite room gave Behemoth a piece of cardboard from an empty box, which he marked into an eight-by-eight chessboard. The improvised cardboard board belongs to Behemoth and lies flat on his table, held by the edge of his blue enamel mug; it is not a purchased or proper chess set.
+- The neighbor's short pencil was lent only during the marking and returned immediately. No borrowing or debt remains, and their practically friendly relationship is unchanged.
+- The blue enamel mug remains clean and intact; no chess pieces, money, promise, appointment, injury, or new thread were acquired or created.
+- The fifth game with the gray-haired player remains a draw. The cumulative score stays 2–1–2 (two wins for him, one for Behemoth, two draws). No sixth game has been arranged.
