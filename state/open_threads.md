@@ -31,3 +31,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-19
 - The neighbor freely gave Behemoth cardboard from an empty box to make a chessboard, and he returned her pencil after drawing an eight-by-eight grid. The board is an owned household object, not a new story thread. No sixth game or other obligation was arranged.
+
+## 2026-10-20
+- While the neighbor washed the communal kitchen floor, Behemoth waited rather than leave tracks, then wiped a small remaining puddle with the shared rag and returned it. This modestly reinforced household trust but opened no new thread, duty, debt, or appointment.

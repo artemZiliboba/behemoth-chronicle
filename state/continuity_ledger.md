@@ -20,3 +20,8 @@ Previous entries through 2026-10-16: state/continuity_ledger.archive-2026-10-16.
 - The neighbor's short pencil was lent only during the marking and returned immediately. No borrowing or debt remains, and their practically friendly relationship is unchanged.
 - The blue enamel mug remains clean and intact; no chess pieces, money, promise, appointment, injury, or new thread were acquired or created.
 - The fifth game with the gray-haired player remains a draw. The cumulative score stays 2–1–2 (two wins for him, one for Behemoth, two draws). No sixth game has been arranged.
+
+## 2026-10-20
+- The neighbor from the opposite room saw Behemoth respect her freshly washed kitchen floor and clean up a small puddle left by her bucket without being asked. This is another small instance of cooperative domestic conduct; no new formal duty, debt or promised service arose.
+- He used and immediately returned the communal cleaning rag. No object was acquired, lost or damaged. His cardboard board, blue enamel mug, window newspaper seal, primus, kerosene and existing relationships remain unchanged.
+- No chess game occurred; the cumulative score remains 2–1–2, with no sixth game scheduled. No new injury, location restriction, appointment or story thread resulted.
