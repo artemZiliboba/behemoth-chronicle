@@ -25,3 +25,8 @@ Previous entries through 2026-10-16: state/continuity_ledger.archive-2026-10-16.
 - The neighbor from the opposite room saw Behemoth respect her freshly washed kitchen floor and clean up a small puddle left by her bucket without being asked. This is another small instance of cooperative domestic conduct; no new formal duty, debt or promised service arose.
 - He used and immediately returned the communal cleaning rag. No object was acquired, lost or damaged. His cardboard board, blue enamel mug, window newspaper seal, primus, kerosene and existing relationships remain unchanged.
 - No chess game occurred; the cumulative score remains 2–1–2, with no sixth game scheduled. No new injury, location restriction, appointment or story thread resulted.
+
+## 2026-10-21
+- At the bakery, the woman wearing a gray headscarf whom Behemoth met in the queue on 2026-10-02 recognized him and vouched for his place to a new arrival. She treats him as a legitimate, orderly customer; no personal acquaintance beyond queue recognition, name or promise was established.
+- Behemoth paid cash in full for one loaf of black bread, which he brought home. No credit, debt, gift, favor, appointment, injury or access change resulted.
+- The cardboard chessboard remains at home, without pieces; the chess score remains 2–1–2 and no sixth game is arranged. The neighbor's trust, blue enamel mug, paper window seal, primus and usable kerosene, kitchen shelf, and theatre boundaries remain unchanged. No new story thread was opened.

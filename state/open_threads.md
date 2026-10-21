@@ -34,3 +34,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-20
 - While the neighbor washed the communal kitchen floor, Behemoth waited rather than leave tracks, then wiped a small remaining puddle with the shared rag and returned it. This modestly reinforced household trust but opened no new thread, duty, debt, or appointment.
+
+## 2026-10-21
+- Behemoth encountered the same gray-headscarf woman at the bakery as on 2026-10-02. She recognized him as a courteous participant in the queue, and he paid for a loaf of bread in full. This small reputation echo opens no new thread, promise, debt, appointment or urgent issue. Existing closed and dormant threads remain unchanged.
