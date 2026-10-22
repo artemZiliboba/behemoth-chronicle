@@ -37,3 +37,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-21
 - Behemoth encountered the same gray-headscarf woman at the bakery as on 2026-10-02. She recognized him as a courteous participant in the queue, and he paid for a loaf of bread in full. This small reputation echo opens no new thread, promise, debt, appointment or urgent issue. Existing closed and dormant threads remain unchanged.
+
+## 2026-10-22
+- Бегемот добровольно поделился ломтём своего вчерашнего чёрного хлеба с соседкой из комнаты напротив; это ещё один знак их бытового доверия, но не долг и не обещание. Новых сюжетных линий и срочных обязательств нет; прежние закрытые и спящие линии не переоткрывались.
