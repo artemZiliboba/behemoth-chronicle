@@ -34,3 +34,8 @@ Previous entries through 2026-10-16: state/continuity_ledger.archive-2026-10-16.
 ## 2026-10-22
 - From the loaf of black bread paid for on 2026-10-21, Behemoth voluntarily gave the opposite-room neighbor one slice for her soup. She accepted it as an unconditioned gift; no compensation, repayment, debt, promised service or appointment arose. Behemoth kept the remaining loaf at home.
 - Their practical neighborly goodwill is mildly reinforced. The cardboard chessboard and clean, intact blue enamel mug remain on his table; the chess score is unchanged at 2–1–2 and no sixth game is arranged. The paper window seal, primus, kerosene, kitchen shelf, theatre boundaries and previously closed threads are unaffected.
+
+## 2026-10-23
+- Behemoth rode a tram for two stops and paid the normal fare in full despite the conductor's offer of free passage for a cat. He did not speak to the conductor, so she did not learn his speaking ability. No fare remains owed or credit is held.
+- He kept the used, punched paper tram ticket as a small personal memento and placed it beside his improvised cardboard chessboard on his table. The cardboard board remains flat under the edge of the clean, intact blue enamel mug. No chess pieces or proper set were acquired.
+- No continuing relationship with the unnamed conductor, recurring travel privilege, promise, appointment, injury, dispute, or new open thread resulted. The chess score remains 2–1–2 with no sixth game arranged. The partially used paid-for bread, neighborly goodwill, window seal, primus, kerosene, kitchen shelf, and theatre privacy boundaries remain unchanged.
