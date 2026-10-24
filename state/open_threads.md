@@ -43,3 +43,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-23
 - Бегемот без слов настоял на обычной оплате трамвайного проезда, хотя кондукторша предлагала провезти его бесплатно как кота. Он получил и сохранил пробитый билет, проехал две остановки и вернулся домой. Это разовый эпизод, а не новая сюжетная линия: нет долга, обещания, назначенной встречи, знакомства с кондукторшей или изменения правил доступа. Прежние закрытые и спящие линии остаются неизменными.
+
+## 2026-10-24
+- Behemoth visited the established Saturday chess room solely as a spectator. He observed the gray-haired acquaintance playing an unnamed opponent; the player briefly forgot to press his clock, then corrected this himself. Behemoth did not interfere and departed before the result. No sixth game between Behemoth and the gray-haired player, new appointment, debt, possession, acquaintance, or open thread resulted. The previously closed indoor-chess-room discovery thread stays closed.
