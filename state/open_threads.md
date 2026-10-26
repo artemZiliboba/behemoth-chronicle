@@ -46,3 +46,12 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-24
 - Behemoth visited the established Saturday chess room solely as a spectator. He observed the gray-haired acquaintance playing an unnamed opponent; the player briefly forgot to press his clock, then corrected this himself. Behemoth did not interfere and departed before the result. No sixth game between Behemoth and the gray-haired player, new appointment, debt, possession, acquaintance, or open thread resulted. The previously closed indoor-chess-room discovery thread stays closed.
+
+## theatre-missing-letter
+- Status: open
+- Opened: 2026-10-26
+- Last touched: 2026-10-26
+- Description: Lidia Markovna reports that the envelope used for the third-act letter handover went missing after the previous day's rehearsal. It contained a short two-line cue note. A different spare envelope remains. The prop cupboard has an intact lock but a poorly closing door, and Lidia has not yet determined who last put the props away. The director tentatively attributes the disappearance to an accidental removal; this is unverified.
+- Stakes / consequence: The missing prop may disrupt the next rehearsal. Behemoth privately promised Lidia to return after lunch on 2026-10-27 to help inspect the cupboard, without accepting a performance role or payment. Only Lidia knows he can speak.
+- Plausible triggers: The scheduled 2026-10-27 inspection; finding who last handled the prop; locating the envelope or arranging an acceptable replacement.
+- Closure condition: The original envelope is located or its loss and a replacement are conclusively accounted for, and Behemoth's promised inspection is fulfilled or explicitly cancelled.
