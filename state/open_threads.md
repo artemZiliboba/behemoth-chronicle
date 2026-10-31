@@ -61,3 +61,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-30
 - Behemoth consumed the entire remaining portion of his 2026-10-21 black bread after softening it in hot coffee at home, following the neighbor's casual suggestion. The loaf is exhausted. This ordinary domestic exchange created no debt, promise, appointment, new acquaintance, injury or new thread. The theatre-missing-letter thread remains open and unchanged; closed threads remain closed.
+
+## 2026-10-31
+- After the previously established kerosene supply ran low, Behemoth returned to Anna Pavlovna's shop with his existing tin and paid in full for a refill. Anna defended his tin as the property of a customer when an unnamed shopper pushed it aside, visibly reinforcing their established business recognition. No new recurring character, debt, appointment, promise, injury or new story thread arose; the previously closed twelve-kopeck debt remains closed and was not reopened. The theatre-missing-letter thread stays open with its unresolved original envelope, and other closed threads remain closed.
