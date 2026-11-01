@@ -48,14 +48,13 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 - Behemoth visited the established Saturday chess room solely as a spectator. He observed the gray-haired acquaintance playing an unnamed opponent; the player briefly forgot to press his clock, then corrected this himself. Behemoth did not interfere and departed before the result. No sixth game between Behemoth and the gray-haired player, new appointment, debt, possession, acquaintance, or open thread resulted. The previously closed indoor-chess-room discovery thread stays closed.
 
 ## theatre-missing-letter
-- Status: open
+- Status: closed
 - Opened: 2026-10-26
-- Last touched: 2026-10-27
-- Description: Lidia Markovna reports that the envelope used for the third-act letter handover went missing after the previous day's rehearsal. It contained a short two-line cue note. A different spare envelope remains. The prop cupboard has an intact lock but a poorly closing door, and Lidia has not yet determined who last put the props away. The director tentatively attributes the disappearance to an accidental removal; this is unverified.
-- Stakes / consequence: Behemoth fulfilled his 2026-10-27 inspection promise. A tiny unmarked paper corner was found behind the shelf but not identified as belonging to the missing original. Lidia kept the fragment separately. She checked the previously returned play and wrote a replacement two-line cue for the spare envelope, so the rehearsal has a usable letter. The original's whereabouts and cause of loss remain unresolved. No further visit or performance was arranged; only Lidia knows Behemoth speaks.
-- Plausible triggers: Lidia compares the saved fragment with the original if found; a later discovery behind the shelf; a witness identifying who last put away the prop.
-- Closure condition: The original envelope is located or its disappearance is satisfactorily accounted for; Behemoth's inspection promise was fulfilled 2026-10-27, and the spare envelope is usable.
-
+- Last touched: 2026-11-01
+- Description: After the 2026-10-25 rehearsal, the original third-act stage-letter envelope containing a two-line cue disappeared from Lidia Markovna's prop cupboard. The lock was intact but the door poorly fitting. On 2026-10-27 Behemoth found a tiny unmarked paper corner behind the shelf; Lidia saved it and prepared a usable two-line cue in a spare envelope. On 2026-11-01, during Behemoth's voluntary unscheduled return, Lidia supported a skewed cupboard shelf while he retrieved the folded original envelope with the two-line cue from the gap behind it. The saved corner's torn edge matched the original envelope.
+- Stakes / consequence: Lidia put the saved corner inside the recovered original envelope and retained it separately from the usable spare. The original's location is established, ending the missing-object problem. The precise mechanism by which it reached the gap and any human responsibility were not determined; do not allege a theft, culprit or deliberate concealment. The shelf and poorly fitting door were not repaired. Behemoth made no appointment, joined no performance, received no pay or theatre property, and kept his speaking ability private from everyone at the theatre except Lidia.
+- Plausible triggers: A future theatre visit could refer to the recovered original, poor cupboard fittings, or the retained spare, but no new work, promise or investigation is pending.
+- Closure condition: fulfilled 2026-11-01 — the original envelope was recovered and identified by its cue and matching torn corner.
 ## 2026-10-29
 - Behemoth retrieved an elderly stranger's windblown address slip from beneath a closed cobbler's door near the tram stop and returned it directly. The stranger retained the paper and departed by tram; neither name nor address was learned, and no debt, appointment, continuing relationship, or new thread arose. The unresolved theatre-missing-letter thread remains open and unchanged; no 2026-10-28 entry exists.
 
@@ -64,3 +63,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-10-31
 - After the previously established kerosene supply ran low, Behemoth returned to Anna Pavlovna's shop with his existing tin and paid in full for a refill. Anna defended his tin as the property of a customer when an unnamed shopper pushed it aside, visibly reinforcing their established business recognition. No new recurring character, debt, appointment, promise, injury or new story thread arose; the previously closed twelve-kopeck debt remains closed and was not reopened. The theatre-missing-letter thread stays open with its unresolved original envelope, and other closed threads remain closed.
+
+## 2026-11-01
+- Behemoth and Lidia recovered the missing original third-act envelope from behind the prop-cupboard shelf and matched the previously saved paper corner. Lidia retained the original and the usable spare. The theatre-missing-letter thread is closed on recovery, though the cause of its placement remains unproven; no new thread or obligation arose. Other closed threads stay closed.
