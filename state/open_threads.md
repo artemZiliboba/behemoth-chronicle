@@ -66,3 +66,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-11-01
 - Behemoth and Lidia recovered the missing original third-act envelope from behind the prop-cupboard shelf and matched the previously saved paper corner. Lidia retained the original and the usable spare. The theatre-missing-letter thread is closed on recovery, though the cause of its placement remains unproven; no new thread or obligation arose. Other closed threads stay closed.
+
+## 2026-11-02
+- Ordinary-life record, no new thread: Behemoth fully paid for a fresh loaf of black bread with a small weighed makeweight slice, ate only the slice en route, and stored the loaf on his usual kitchen shelf. The opposite-room neighbor's reminder to avoid stale bread reinforced established domestic familiarity without creating a promised service, debt or appointment. Theatre-missing-letter remains closed after 2026-11-01; other closed threads stay closed, with no outstanding urgent issue.
