@@ -72,3 +72,12 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-11-03
 - Ordinary-life record, no new thread: Behemoth paid cash for a fresh newspaper and read it at home, keeping the older folded newspaper in the window frame as the draft seal. The opposite-room neighbor's brief comment created no new promise, duty or relationship change. The vendor did not hear him speak. All previously closed threads, including theatre-missing-letter, remain closed; no outstanding urgent issue or new obligation arose.
+
+## communal-kitchen-mouse
+- Status: open
+- Opened: 2026-11-04
+- Last touched: 2026-11-04
+- Description: Behemoth and his opposite-room neighbor saw an unnamed gray mouse near his bread shelf in the shared kitchen. He briefly blocked its path with his paw, but it escaped into a gap beside the skirting board. Its whereabouts and whether it returns are unknown; no damage to his bread was observed.
+- Stakes / consequence: A possible future threat to food in the shared kitchen exists, but Behemoth's intact remaining 2026-11-02 bread has been moved to his own room table. Neither neighbor nor Behemoth agreed to catch the mouse, arrange repairs, or assume an ongoing duty. No injury or ownership transfer occurred.
+- Plausible triggers: A second sighting, evidence of gnawing, a resident addressing the gap, or the disappearance of the mouse.
+- Closure condition: The mouse is removed or the household establishes there is no longer an ongoing problem; silence alone is not proof of removal.
