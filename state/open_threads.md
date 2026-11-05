@@ -76,8 +76,8 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 ## communal-kitchen-mouse
 - Status: open
 - Opened: 2026-11-04
-- Last touched: 2026-11-04
-- Description: Behemoth and his opposite-room neighbor saw an unnamed gray mouse near his bread shelf in the shared kitchen. He briefly blocked its path with his paw, but it escaped into a gap beside the skirting board. Its whereabouts and whether it returns are unknown; no damage to his bread was observed.
-- Stakes / consequence: A possible future threat to food in the shared kitchen exists, but Behemoth's intact remaining 2026-11-02 bread has been moved to his own room table. Neither neighbor nor Behemoth agreed to catch the mouse, arrange repairs, or assume an ongoing duty. No injury or ownership transfer occurred.
-- Plausible triggers: A second sighting, evidence of gnawing, a resident addressing the gap, or the disappearance of the mouse.
-- Closure condition: The mouse is removed or the household establishes there is no longer an ongoing problem; silence alone is not proof of removal.
+- Last touched: 2026-11-05
+- Description: On 2026-11-04, Behemoth and the opposite-room neighbor saw a gray mouse approach his bread shelf in the shared kitchen; it escaped into a skirting-board gap. On 2026-11-05 they saw a gray mouse near a leg of the communal stove. After Behemoth blocked the familiar skirting-board opening, it escaped through a second, previously unnoticed gap beneath a floorboard. The two observations do not prove that only one mouse is present or that both sightings were of the same individual. Neither opening was sealed and no mouse was captured.
+- Stakes / consequence: There are at least two access gaps in the shared kitchen and a continuing possible risk to food left there. Behemoth keeps his intact 2026-11-02 bread on the table in his own room, not on the kitchen shelf. He checked it again on 2026-11-05 and found no gnaw marks. The neighbor returned her broom to its place; neither person took on any repair, trapping, or regular pest-control duty. The stove and kitchen shelf remain in ordinary use.
+- Plausible triggers: Another sighting, traces of gnawing, discovery of where either opening leads, a resident addressing the gaps, or convincing evidence that the kitchen is free of mice.
+- Closure condition: The mouse problem is removed or the household establishes that it no longer presents an ongoing problem; mere silence or a successful escape is insufficient.
