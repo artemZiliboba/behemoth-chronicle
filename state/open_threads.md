@@ -14,11 +14,11 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 ## indoor-chess-room
 - Status: closed
 - Opened: 2026-10-15
-- Last touched: 2026-10-17
-- Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop. On 2026-10-16 Behemoth found the club and confirmed the Saturday chess schedule from a notice outside. On 2026-10-17 he visited, met the gray-haired player and drew their fifth game.
-- Stakes / consequence: The room is now a known winter chess location. Their score is two wins for the gray-haired player, one for Behemoth and two draws. No sixth game, fee, membership, promise or next visit is arranged.
-- Plausible triggers: a future Saturday visit, a new opponent, or another encounter with the gray-haired player.
-- Closure condition: fulfilled 2026-10-17 — Behemoth personally visited and played there.
+- Last touched: 2026-11-07
+- Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop. On 2026-10-16 Behemoth confirmed the Saturday schedule, and on 2026-10-17 he visited and drew their fifth game, closing the location-discovery thread. On 2026-11-07 he returned of his own accord and won their unarranged sixth game after promoting a passed pawn; the gray-haired acquaintance resigned.
+- Stakes / consequence: This remains a familiar winter chess location, not a new open quest. Their head-to-head score is now 2–2–2: two wins for each player and two draws. There is no seventh game scheduled, fee, membership, promise or appointment. Behemoth's own cardboard board at home still has no pieces.
+- Plausible triggers: a future voluntary Saturday visit, a new opponent, or another casual encounter with the gray-haired player.
+- Closure condition: fulfilled 2026-10-17 — Behemoth personally visited and played there; the subsequent 2026-11-07 game does not reopen the closed discovery thread.
 
 ## 2026-10-12
 - A neighbor briefly entrusted Behemoth with milk on the communal stove. He prevented a boil-over, was thanked with milk, and incurred no further obligation or new story thread.
@@ -81,3 +81,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 - Stakes / consequence: Both access gaps remain open and the mouse problem is not resolved. The strips, torn from blank margins of his purchased 2026-11-03 newspaper, were left across the openings, but a draft could move them, so a displaced strip alone cannot prove mouse activity. No trapping or repair was undertaken or scheduled. Behemoth keeps his undamaged, partially remaining bread from 2026-11-02 on his room table, not the kitchen shelf. The neighbor knows about both gaps and the indicators. The shared kitchen shelf and stove remain usable.
 - Plausible triggers: A direct mouse sighting, reliable traces of mouse traffic, displaced paper followed by further verification, a resident addressing the gaps, or convincing evidence that the kitchen is free of mice.
 - Closure condition: The mouse problem is removed or the household establishes that it no longer presents an ongoing problem; silence or movement of paper without corroboration is not enough.
+
+## 2026-11-07
+- Echo of the established chess acquaintance and closed indoor-chess-room discovery thread: Behemoth won an unarranged sixth head-to-head game on Saturday, bringing the score to 2–2–2. No seventh game, obligation, fee, appointment or new thread was created. Communal-kitchen-mouse remains open; its two access gaps and loose paper indicators were not inspected today, so no mouse-related outcome is inferred. Theatre-missing-letter remains closed.
