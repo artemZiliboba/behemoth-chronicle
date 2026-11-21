@@ -14,10 +14,11 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 ## indoor-chess-room
 - Status: closed
 - Opened: 2026-10-15
-- Last touched: 2026-11-07
+- Last touched: 2026-11-21
 - Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop. On 2026-10-16 Behemoth confirmed the Saturday schedule, and on 2026-10-17 he visited and drew their fifth game, closing the location-discovery thread. On 2026-11-07 he returned of his own accord and won their unarranged sixth game after promoting a passed pawn; the gray-haired acquaintance resigned.
 - Stakes / consequence: This remains a familiar winter chess location, not a new open quest. Their head-to-head score is now 2–2–2: two wins for each player and two draws. There is no seventh game scheduled, fee, membership, promise or appointment. Behemoth's own cardboard board at home still has no pieces.
 - Plausible triggers: a future voluntary Saturday visit, a new opponent, or another casual encounter with the gray-haired player.
+- 2026-11-21 echo: During a voluntary Saturday visit, the gray-haired player gave Behemoth one scratched black wooden pawn from his own personal spare set, without payment or obligations; no seventh game was played or scheduled, and the discovery thread remains closed.
 - Closure condition: fulfilled 2026-10-17 — Behemoth personally visited and played there; the subsequent 2026-11-07 game does not reopen the closed discovery thread.
 
 ## 2026-10-12
@@ -113,3 +114,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-11-20
 - Ordinary-life record, no new thread: After being placed on the cardboard chessboard while still damp underneath on 2026-11-19, Behemoth's blue enamel mug had left a faint moisture ring and caused slight edge warping. Behemoth dried the board, dried the intact mug and set it back to secure the board, which remains usable but stained and still without pieces. The established opposite-room neighbor heard him speak and commented; she already knew about his speech, and no obligation or relationship change resulted. The communal-kitchen-mouse thread remains open: both kitchen gaps are unsealed, no new evidence, observation, trapping or repair occurred today. There is no stored bread, the newspaper still holds the old punched ticket as a bookmark, chess score is 2–2–2, and the theatre threads stay closed. No new debt, appointment, favor, injury, acquisition or thread.
+
+## 2026-11-21
+- Echo of the established gray-haired chess acquaintance and the already closed indoor-chess-room location-discovery thread. Behemoth voluntarily visited the familiar Saturday chess room and accepted one scratched black wooden pawn freely given from the acquaintance's own spare pieces. He now owns exactly one chess piece for his homemade, ring-marked cardboard board; no club piece was taken. No seventh game or future appointment was made, and the six-game head-to-head record remains 2–2–2. The gift did not reopen the closed location-discovery thread or create a debt, promise or separate new thread. The communal-kitchen-mouse thread remains open with the same two unsealed openings and no new evidence or repair, and the closed theatre threads stay closed.
