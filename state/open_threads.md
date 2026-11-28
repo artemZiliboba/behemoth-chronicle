@@ -14,11 +14,12 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 ## indoor-chess-room
 - Status: closed
 - Opened: 2026-10-15
-- Last touched: 2026-11-21
+- Last touched: 2026-11-28
 - Description: Cold weather ended the gray-haired player's regular courtyard chess for the season. He told Behemoth that he plays on Saturdays in a chess room at a club near a tram stop. On 2026-10-16 Behemoth confirmed the Saturday schedule, and on 2026-10-17 he visited and drew their fifth game, closing the location-discovery thread. On 2026-11-07 he returned of his own accord and won their unarranged sixth game after promoting a passed pawn; the gray-haired acquaintance resigned.
-- Stakes / consequence: This remains a familiar winter chess location, not a new open quest. Their head-to-head score is now 2–2–2: two wins for each player and two draws. There is no seventh game scheduled, fee, membership, promise or appointment. Behemoth's home cardboard board now has one scratched black wooden pawn given by the gray-haired acquaintance on 2026-11-21, not a complete set.
+- Stakes / consequence: This remains a familiar winter chess location, not a new open quest. Their head-to-head score is now 3–2–2: three wins for the gray-haired player, two for Behemoth and two draws. There is no eighth game scheduled, fee, membership, promise or appointment. Behemoth's home cardboard board now has one scratched black wooden pawn given by the gray-haired acquaintance on 2026-11-21, not a complete set.
 - Plausible triggers: a future voluntary Saturday visit, a new opponent, or another casual encounter with the gray-haired player.
 - 2026-11-21 echo: During a voluntary Saturday visit, the gray-haired player gave Behemoth one scratched black wooden pawn from his own personal spare set, without payment or obligations; no seventh game was played or scheduled, and the discovery thread remains closed.
+- 2026-11-28 echo: On a voluntary Saturday visit, Behemoth played white in their seventh game and lost on time in the middlegame after deliberating too long. They shook hands; no eighth game was arranged. The discovery thread remains closed.
 - Closure condition: fulfilled 2026-10-17 — Behemoth personally visited and played there; the subsequent 2026-11-07 game does not reopen the closed discovery thread.
 
 ## 2026-10-12
@@ -137,3 +138,6 @@ Archived records through 2026-10-11: state/open_threads.archive-2026-10-11.md
 
 ## 2026-11-27
 - Ordinary-life episode, no new thread: The opposite-room neighbor cooked buckwheat porridge from her own groats, returned her jar with the remaining groats to her room, and freely gave Behemoth a small portion. He ate all of it in his room on his own chipped white saucer, then washed and dried the saucer and restored it beneath his blue enamel mug on the board. No remaining food, repayment, promise, new duty or relationship change resulted. The communal-kitchen-mouse thread stays open, last substantively touched 2026-11-26 (minimum two distinct mice confirmed); both gaps remain unsealed and there is no new sighting, trap or repair. Chess score 2–2–2, no seventh game arranged; closed theatre and chess-room discovery threads stay closed.
+
+## 2026-11-28
+- Echo of the established chess acquaintance and closed indoor-chess-room discovery thread: Behemoth lost their unarranged seventh game on time, making the score 3–2–2 (three gray-haired player wins, two Behemoth wins, two draws). No eighth game was arranged; no debt, fee, promise, obligation or new thread. His sole pawn was moved one square at home, with no change in ownership. Communal-kitchen-mouse remains open, last confirmed minimum two mice, both passages unsealed; no fresh evidence or repair. Theatre threads remain closed.
